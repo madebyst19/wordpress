@@ -77,7 +77,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <?php the_content();?>
-            <p>あああ</p>
+            <p></p>
         </div>
       </div>
     </div>
