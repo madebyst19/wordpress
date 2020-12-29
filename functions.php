@@ -19,5 +19,13 @@ function init_func(){
         'menu_icon' => 'dashicons-cart'
 
     ]);
+
+    register_taxonomy('item_category','post',[
+        'labels' => [
+            'name' => '商品カテゴリー',
+        ],
+        'hierarchical' => false,
+        'show_in_rest' => true,
+    ]);
 }
 add_action('init','init_func');
