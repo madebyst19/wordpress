@@ -20,11 +20,11 @@ function init_func(){
 
     ]);
 
-    register_taxonomy('item_category','post',[
+    register_taxonomy('item_category','item',[
         'labels' => [
             'name' => '商品カテゴリー',
         ],
-        'hierarchical' => false,
+        'hierarchical' => true ,
         'show_in_rest' => true,
     ]);
 }
